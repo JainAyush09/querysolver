@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Cards from "./Cards";
+import Header from "./Header";
+import Cardlist from "./Cardlist";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Header/>
+      <button className="butt">Topic1</button>  
+      <button className="butt">Topic2</button>
+      <button className="butt">Topic3</button>  
+      <button className="butt">Topic4</button>
+      <button className="butt">Topic5</button>  
+      <button className="butt">Topic6</button>
+      <button className="butt2">Topic5</button>  
+      <button className="butt2">Topic6</button>
+      <button className="butt2">Topic5</button>  
+      <button className="butt2">Topic6</button>
+      <button className="butt2">Topic5</button>  
+      <button className="butt2">Topic5</button> 
+      <Cards 
+      title={Cardlist[0].title}
+      content={Cardlist[0].content}
+      />
+      <Cards 
+      title={Cardlist[0].title}
+      content={Cardlist[0].content}
+      />
+     <h5>Thank You!</h5>
+      
+      
+      
+      
     </div>
   );
 }

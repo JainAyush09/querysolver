@@ -5,9 +5,224 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #22292B;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+header {
+  color: white;
+  background-color:#2B2422;
+  font-family: "Mclaren",cursive;
+  padding :1px 24px;
+  margin: auto -16px;
+  text-align: center;
+  font-size: large;
+}
+header h1{
+  color:white;
+  font-family: "Mclaren",cursive;
+  font-weight:200;
+  padding :10px;
+}
+.butt{
+
+
+/* CSS */
+
+  background-color: #b1facb;
+  border-radius: 100px;
+  box-shadow: rgba(221, 238, 227, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(8, 10, 8);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 55px;
+  margin-right:55px;
+  margin-top: 20px;
+}
+
+.butt:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.butt2:hover {
+  box-shadow: rgba(117, 182, 219, 0.35) 0 -25px 18px -14px inset,rgba(106, 186, 216, 0.25) 0 1px 2px,rgba(77, 163, 220, 0.25) 0 2px 4px,rgba(101, 193, 216, 0.25) 0 4px 8px,rgba(117, 170, 193, 0.25) 0 8px 16px,rgba(51, 159, 181, 0.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.butt2{
+  
+  background-color: #7de5ed;
+  border-radius: 100px;
+  box-shadow: rgba(0, 1, 1, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(18, 19, 18);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 55px;
+  margin-right:55px;
+  margin-top: 20px;
+}
+
+.bottom h3{
+
+border-radius: 45px ;
+
+width: 18%;
+font-size: 25px;
+align-items: center;
+text-align: center;
+font-family: "Mclaren",cursive;
+text-align:center;
+height: 30px;
+}
+.bottom2 h3{
+
+  border-radius: 45px ;
+  
+  width: 18%;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  font-family: "Mclaren",cursive;
+  text-align:center;
+  height: 30px;
+  }
+  .bottom3 h3{
+
+    border-radius: 45px ;
+    
+    width: 18%;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: "Mclaren",cursive;
+    text-align:center;
+    height: 30px;
+    }
+.bottom h4{
+  margin-left: 50px;
+  color: rgb(14, 14, 14);
+  font-size: larger;
+  font-family: "Mclaren",cursive;
+  background-color: #e6beab;
+  height: 100px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.bottom2 h4{
+  margin-left: 50px;
+  color: rgb(14, 14, 14);
+  font-size: larger;
+  font-family: "Mclaren",cursive;
+  background-color: #edd6e3;
+  height: 100px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.bottom3 h4{
+  margin-left: 50px;
+  color: rgb(14, 14, 14);
+  font-size: larger;
+  font-family: "Mclaren",cursive;
+  background-color: #caefe9;
+  height: 100px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.bottom{
+ 
+  border-radius: 15px ;
+  width: 90%;
+  align-items: center;
+  margin-left: 50px;
+  text-align:left;
+  padding-left: 20px;
+ margin-top: 30px;
+ background: #e1a07d;
+ padding: 20px;
+ border-radius: 20px;
+ 
+  heightdisplay: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 85vw;
+  overflow-x: hidden;
+  
+  
+
+  }
+
+  .bottom2{
+ 
+    border-radius: 15px ;
+    width: 90%;
+    align-items: center;
+    margin-left: 50px;
+    text-align:left;
+    padding-left: 20px;
+   margin-top: 30px;
+   background: #e5b4da;
+   padding: 20px;
+   border-radius: 20px;
+   
+    heightdisplay: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 85vw;
+    overflow-x: hidden;
+    
+    
+  
+    }
+    .bottom3{
+ 
+      border-radius: 15px ;
+      width: 90%;
+      align-items: center;
+      margin-left: 50px;
+      text-align:left;
+      padding-left: 20px;
+     margin-top: 30px;
+     background: #91e0e3;
+     padding: 20px;
+     border-radius: 20px;
+     
+      heightdisplay: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30vh;
+      width: 85vw;
+      overflow-x: hidden;
+      
+      
+    
+      }
+      
